@@ -32,9 +32,9 @@ return [
     ],
 
     'google' => [
-        'client_id' => '463415879562-q3k6v6j3jbk9phtpvb233hpkcor63aor.apps.googleusercontent.com',
-        'client_secret' => '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',
-        'redirect' => 'https://webtemplate.itpku.net/authorized/google/callback',
+        'client_id' => env('GOOGLE_ID'),
+        'client_secret' => env('GOOGLE_SECRET'),
+        'redirect' => env('GOOGLE_REDIRECT'),
     ],
 
 ];
